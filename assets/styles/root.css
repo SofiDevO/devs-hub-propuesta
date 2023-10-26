@@ -1,8 +1,13 @@
 :root {
   --main-color: rgb(3, 3, 3);
   --second-color: rgb(241, 241, 241);
+  --background-color: #191E29;
+  --secundary-background:#132D46;
   --blue: rgb(90, 208, 219);
   --gray: rgb(29, 29, 29);
+  --gray-secundary:#696E79;
+  --green: #01C38D;
+
 }
 
 html {
@@ -12,6 +17,7 @@ html {
 
 * {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -21,6 +27,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
 }
 
 a {
